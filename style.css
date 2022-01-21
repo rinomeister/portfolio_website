@@ -39,16 +39,64 @@ nav ul li a{
     color: white;
 }
 nav ul li a:hover{
-    color: red;
+    color: yellow;
 }
 
 .details{
     
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .details h1{
     font-size: 55px;
     margin-bottom: 20px;
+}
+
+.details span{
+    color: yellow;
+}
+
+.details p{
+    line-height: 22px;
+    color: whitesmoke;
+}
+
+.details a{
+    background: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+
+.images :hover .shape{
+    left: 45%;
+}
+
+.images .me{
+    height: 350px;
+    width: 650px;
+    margin-bottom: 25%;
+    margin-left: 10%;
+    
 }
