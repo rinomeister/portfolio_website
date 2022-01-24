@@ -100,3 +100,56 @@ nav ul li a:hover{
     margin-left: 10%;
     
 }
+
+.about{
+    width: 100%;
+    padding: 100px 0px;    
+}
+
+.about img{
+    height: 400px;
+    width: 340x;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    font-size: 75px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.main span{
+    color: yellow;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+.about-text{
+    margin-left: 25px;
+}
